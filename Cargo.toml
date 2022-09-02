@@ -1,0 +1,9 @@
+[package]
+name = "rust-ethers-ex"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ethers = { version = "^0.17.0", git = "https://github.com/gakonst/ethers-rs", features = ["abigen"] }
+eyre = "*"
+tokio = { version = "1.18", features = ["macros", "rt-multi-thread"] }
